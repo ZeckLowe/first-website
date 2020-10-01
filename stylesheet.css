@@ -1,7 +1,28 @@
+h1 {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+h2 {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+h3 {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
 .orange {
     background-color: #d17a56;
+    color: #f4ede6;
 }
 
 .description {
-    background-color: #f4ede6
+    background-color: #f4ede6;
+    color: #d17a56
+}
+
+footer {
+    text-align: center
 }
