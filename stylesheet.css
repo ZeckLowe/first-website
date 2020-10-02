@@ -60,7 +60,24 @@ p {
     padding-bottom: 140px;
 }
 
-footer {
+.sponsor {
+    padding: 1px 100px 300px;
+    background-color: #f4ede6;
+    color: #d17a56;
     text-align: center;
+    font-size: 30px;
+}
+
+footer {
+    padding: 10px;
+    font-size: 11px;
+    background-color: #d17a56;
+    color: #f4ede6;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #f4ede6;
 }
 
