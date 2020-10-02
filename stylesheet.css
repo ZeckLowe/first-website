@@ -8,6 +8,7 @@ body {
 }
 
 .topnav a {
+  font-family: 'Oswald', sans-serif;
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -18,14 +19,19 @@ body {
 
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
+  color: #d17a56;
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #e5ac94;
+  color: #ecd9ce;
 }
 
+.streams {
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+    font-size: 30px;
+}
 .sansita {
     font-family: 'Sansita Swashed', cursive;
 }
@@ -41,11 +47,20 @@ p {
 }
 
 .description {
-    background-color: #f4ede6;
-    color: #d17a56
+    padding: 1px 100px;
+    background-color: #d17a56;
+    color: #f4ede6;
+}
+
+.des1 {
+    padding-bottom: 60px;
+}
+
+.des2 {
+    padding-bottom: 140px;
 }
 
 footer {
-    text-align: center
+    text-align: center;
 }
 
