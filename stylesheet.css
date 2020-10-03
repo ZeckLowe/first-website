@@ -64,6 +64,7 @@ h1 {
 
 .description {
     padding: 1px 100px;
+    text-align: center;
     background-color: #d17a56;
     color: #f4ede6;
 }
@@ -74,14 +75,50 @@ h1 {
 
 .des2 {
     padding-bottom: 140px;
+} 
+
+.video{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0px;
+}
+
+.video iframe{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
 }
 
 .sponsor {
-    padding: 1px 100px 300px;
+    padding: 1px 100px 50px;
     background-color: #f4ede6;
     color: #d17a56;
     text-align: center;
     font-size: 30px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.column{
+    
+    float: left;
+    width: 24%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 footer {
