@@ -36,14 +36,30 @@ body {
     font-family: 'Sansita Swashed', cursive;
 }
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
 }
 .orange {
-    padding: 200px;
-    text-align: center;
+    padding: 120px;
     background-image: url("img/wallpaperlogo.jpg");
     background-size: cover;
-    color: #d17a56
+    color: #d17a56;
+}
+
+.box {
+    position: relative;
+    margin-left: 280px;
+    max-width: 600px;
+    padding: 50px;
+    background: rgba(255,255,255,.7);
+    box-shadow: 0px 5px 15px rgba(0,0,0,.5);
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 50px;
+    text-shadow: 
 }
 
 .description {
@@ -74,7 +90,7 @@ footer {
     background-color: #d17a56;
     color: #f4ede6;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 a {
